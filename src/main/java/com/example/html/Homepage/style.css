@@ -30,7 +30,14 @@ nav{
     font-weight: bold;
     padding-left:5%;
     padding-top: 3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    backdrop-filter: saturate(500%);
+    background-image: url("LogoVehicle.png");
 }
+
 .menu{
     width:65%;
     display: flex;
@@ -103,40 +110,42 @@ button:hover{
 }
 
 
-.second{
-    text-underline: black;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top:2%;
-    margin-left: 30%;
-    background-color:white;
-    color: black;
-    width:40%;
-    height:100px;
-    margin-top:400px ;
-    border: 2px solid white;
-}
-
-
-
-.firstparagraph{
-    text-align: center;
-    align-items: center;
-    background-color:whitesmoke;
-    color: black;
-    width:25%;
-    height:500px;
-    margin-left: 2%;
-
-}
-.div2{
-    height: 500px;
-    width: 25%;
+.secondmain{
+    display: flex;
+    position: relative;
+    margin-left:50px;
+    height: 900px;
+    width:95%;
     background-color: green;
-   margin-left: 50%;
-    margin-top:15%;
 }
+
+.secondmain #userregistration{
+    position: absolute;
+    height: 600px;
+    width:100%;
+    background-color: #00eeff;
+
+}
+.secondmain #userregistration {
+    height: 600px;
+    width: 50%;
+    background-color: grey;
+
+}
+.secondmain #userregistration #paragraph{
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    background-color: yellow;
+    right: 0;
+
+}
+
+
+
+
+
+
 
 
 
