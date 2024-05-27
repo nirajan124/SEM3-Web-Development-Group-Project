@@ -30,7 +30,18 @@ nav{
     font-weight: bold;
     padding-left:5%;
     padding-top: 3%;
+<<<<<<< HEAD
 }
+=======
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    backdrop-filter: saturate(500%);
+    background-image: url("LogoVehicle.png");
+}
+
+>>>>>>> 684a55f6d7b11b401e91c9c8adf64f5d0cb02ccf
 .menu{
     width:65%;
     display: flex;
@@ -103,6 +114,7 @@ button:hover{
 }
 
 
+<<<<<<< HEAD
 .second{
     text-underline: black;
     text-align: center;
@@ -136,6 +148,37 @@ button:hover{
     background-color: green;
    margin-left: 50%;
     margin-top:15%;
+=======
+.secondmain{
+    display: flex;
+    position: relative;
+    margin-left:50px;
+    height: 900px;
+    width:95%;
+    background-color: green;
+}
+
+.secondmain #userregistration{
+    position: absolute;
+    height: 600px;
+    width:100%;
+    background-color: #00eeff;
+
+}
+.secondmain #userregistration {
+    height: 600px;
+    width: 50%;
+    background-color: grey;
+
+}
+.secondmain #userregistration #paragraph{
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    background-color: yellow;
+    right: 0;
+
+>>>>>>> 684a55f6d7b11b401e91c9c8adf64f5d0cb02ccf
 }
 
 
@@ -147,3 +190,12 @@ button:hover{
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 684a55f6d7b11b401e91c9c8adf64f5d0cb02ccf
